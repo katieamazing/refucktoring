@@ -1,3 +1,7 @@
+##Code found on github
+##Author Sandi Metz/Katrina Owen
+##For the excellent book: https://www.sandimetz.com/99bottles/
+
 class Bottles
   def song
     verses(99, 0)
