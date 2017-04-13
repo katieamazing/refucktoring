@@ -1,4 +1,4 @@
-##Source file for Sierpinski Triangles
+## source: https://rosettacode.org/wiki/Sierpinski_triangle#Python
 
 def sierpinski(n):
     d = ["*"]
