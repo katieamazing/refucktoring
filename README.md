@@ -2,9 +2,9 @@
 
 **About Refucktoring**
 
-Please read the excellent @lazywithclass 's [description of refucktoring](https://github.com/lazywithclass/lazy-refucktoring). You may also find JavaScript refucktoring projects at that link.
+Make incremental changes to destroy the code, and keep the test cases green! As with Refactoring, make small changes line by line to your source file of choice, and run the tests after each change. The goal is unreadable code, obfuscated programs, maintenance nightmares, and slow running times. 
 
-To refucktor one of these projects, download or clone the relevant project folder so you have the test cases.
+To refucktor one of these projects, download or clone the folder, or choose a source code and its associated test suite. The source code file should have some comments with more information about the program to be Refucktored.
 
 **The Code**
 
