@@ -1,0 +1,1068 @@
+spawn ./dds
+Ok
+OLD LANDER.BAS
+Ok
+RUN
+You aboard the Lunar Lander about to leave the spacecraft.
+Ready for detachment
+-- COUNTDOWN --
+10
+9
+8
+7
+6
+5
+4
+3
+2
+1
+0
+You have left the spacecraft.
+Try to land with velocity less than 5 m/sec.
+        Meter readings
+        --------------
+Fuel (gal):
+500
+Velocity (m/sec):
+70
+Height (m):
+1000
+How much fuel will you use?
+0
+        Meter readings
+        --------------
+Fuel (gal):
+500
+Velocity (m/sec):
+72
+Height (m):
+930
+How much fuel will you use?
+0
+        Meter readings
+        --------------
+Fuel (gal):
+500
+Velocity (m/sec):
+74
+Height (m):
+858
+How much fuel will you use?
+0
+        Meter readings
+        --------------
+Fuel (gal):
+500
+Velocity (m/sec):
+76
+Height (m):
+784
+How much fuel will you use?
+0
+        Meter readings
+        --------------
+Fuel (gal):
+500
+Velocity (m/sec):
+78
+Height (m):
+708
+How much fuel will you use?
+0
+        Meter readings
+        --------------
+Fuel (gal):
+500
+Velocity (m/sec):
+80
+Height (m):
+630
+How much fuel will you use?
+0
+        Meter readings
+        --------------
+Fuel (gal):
+500
+Velocity (m/sec):
+82
+Height (m):
+550
+How much fuel will you use?
+0
+        Meter readings
+        --------------
+Fuel (gal):
+500
+Velocity (m/sec):
+84
+Height (m):
+468
+How much fuel will you use?
+0
+        Meter readings
+        --------------
+Fuel (gal):
+500
+Velocity (m/sec):
+86
+Height (m):
+384
+How much fuel will you use?
+0
+        Meter readings
+        --------------
+Fuel (gal):
+500
+Velocity (m/sec):
+88
+Height (m):
+298
+How much fuel will you use?
+0
+        Meter readings
+        --------------
+Fuel (gal):
+500
+Velocity (m/sec):
+90
+Height (m):
+210
+How much fuel will you use?
+0
+        Meter readings
+        --------------
+Fuel (gal):
+500
+Velocity (m/sec):
+92
+Height (m):
+120
+How much fuel will you use?
+0
+        Meter readings
+        --------------
+Fuel (gal):
+500
+Velocity (m/sec):
+94
+Height (m):
+28
+How much fuel will you use?
+470
+        Meter readings
+        --------------
+Fuel (gal):
+30
+Landing velocity (m/sec):
+2
+Height (m):
+0
+Congratulations!  This was a very good landing.
+Do you want to play again? (0 = no, 1 = yes)
+1
+You aboard the Lunar Lander about to leave the spacecraft.
+Ready for detachment
+-- COUNTDOWN --
+10
+9
+8
+7
+6
+5
+4
+3
+2
+1
+0
+You have left the spacecraft.
+Try to land with velocity less than 5 m/sec.
+        Meter readings
+        --------------
+Fuel (gal):
+500
+Velocity (m/sec):
+70
+Height (m):
+1000
+How much fuel will you use?
+1
+        Meter readings
+        --------------
+Fuel (gal):
+499
+Velocity (m/sec):
+71
+Height (m):
+930
+How much fuel will you use?
+1
+        Meter readings
+        --------------
+Fuel (gal):
+498
+Velocity (m/sec):
+72
+Height (m):
+859
+How much fuel will you use?
+1
+        Meter readings
+        --------------
+Fuel (gal):
+497
+Velocity (m/sec):
+73
+Height (m):
+787
+How much fuel will you use?
+1
+        Meter readings
+        --------------
+Fuel (gal):
+496
+Velocity (m/sec):
+74
+Height (m):
+714
+How much fuel will you use?
+1
+        Meter readings
+        --------------
+Fuel (gal):
+495
+Velocity (m/sec):
+75
+Height (m):
+640
+How much fuel will you use?
+1
+        Meter readings
+        --------------
+Fuel (gal):
+494
+Velocity (m/sec):
+76
+Height (m):
+565
+How much fuel will you use?
+1
+        Meter readings
+        --------------
+Fuel (gal):
+493
+Velocity (m/sec):
+77
+Height (m):
+489
+How much fuel will you use?
+1
+        Meter readings
+        --------------
+Fuel (gal):
+492
+Velocity (m/sec):
+78
+Height (m):
+412
+How much fuel will you use?
+1
+        Meter readings
+        --------------
+Fuel (gal):
+491
+Velocity (m/sec):
+79
+Height (m):
+334
+How much fuel will you use?
+1
+        Meter readings
+        --------------
+Fuel (gal):
+490
+Velocity (m/sec):
+80
+Height (m):
+255
+How much fuel will you use?
+1
+        Meter readings
+        --------------
+Fuel (gal):
+489
+Velocity (m/sec):
+81
+Height (m):
+175
+How much fuel will you use?
+1
+        Meter readings
+        --------------
+Fuel (gal):
+488
+Velocity (m/sec):
+82
+Height (m):
+94
+How much fuel will you use?
+1
+        Meter readings
+        --------------
+Fuel (gal):
+487
+Velocity (m/sec):
+83
+Height (m):
+12
+How much fuel will you use?
+415
+        Meter readings
+        --------------
+Fuel (gal):
+72
+Landing velocity (m/sec):
+2
+Height (m):
+0
+Congratulations!  This was a very good landing.
+Do you want to play again? (0 = no, 1 = yes)
+1
+You aboard the Lunar Lander about to leave the spacecraft.
+Ready for detachment
+-- COUNTDOWN --
+10
+9
+8
+7
+6
+5
+4
+3
+2
+1
+0
+You have left the spacecraft.
+Try to land with velocity less than 5 m/sec.
+        Meter readings
+        --------------
+Fuel (gal):
+500
+Velocity (m/sec):
+70
+Height (m):
+1000
+How much fuel will you use?
+2
+        Meter readings
+        --------------
+Fuel (gal):
+498
+Velocity (m/sec):
+71
+Height (m):
+930
+How much fuel will you use?
+2
+        Meter readings
+        --------------
+Fuel (gal):
+496
+Velocity (m/sec):
+72
+Height (m):
+859
+How much fuel will you use?
+2
+        Meter readings
+        --------------
+Fuel (gal):
+494
+Velocity (m/sec):
+73
+Height (m):
+787
+How much fuel will you use?
+2
+        Meter readings
+        --------------
+Fuel (gal):
+492
+Velocity (m/sec):
+74
+Height (m):
+714
+How much fuel will you use?
+2
+        Meter readings
+        --------------
+Fuel (gal):
+490
+Velocity (m/sec):
+75
+Height (m):
+640
+How much fuel will you use?
+2
+        Meter readings
+        --------------
+Fuel (gal):
+488
+Velocity (m/sec):
+76
+Height (m):
+565
+How much fuel will you use?
+2
+        Meter readings
+        --------------
+Fuel (gal):
+486
+Velocity (m/sec):
+77
+Height (m):
+489
+How much fuel will you use?
+2
+        Meter readings
+        --------------
+Fuel (gal):
+484
+Velocity (m/sec):
+78
+Height (m):
+412
+How much fuel will you use?
+2
+        Meter readings
+        --------------
+Fuel (gal):
+482
+Velocity (m/sec):
+79
+Height (m):
+334
+How much fuel will you use?
+2
+        Meter readings
+        --------------
+Fuel (gal):
+480
+Velocity (m/sec):
+80
+Height (m):
+255
+How much fuel will you use?
+2
+        Meter readings
+        --------------
+Fuel (gal):
+478
+Velocity (m/sec):
+81
+Height (m):
+175
+How much fuel will you use?
+2
+        Meter readings
+        --------------
+Fuel (gal):
+476
+Velocity (m/sec):
+82
+Height (m):
+94
+How much fuel will you use?
+2
+        Meter readings
+        --------------
+Fuel (gal):
+474
+Velocity (m/sec):
+83
+Height (m):
+12
+How much fuel will you use?
+415
+        Meter readings
+        --------------
+Fuel (gal):
+59
+Landing velocity (m/sec):
+2
+Height (m):
+0
+Congratulations!  This was a very good landing.
+Do you want to play again? (0 = no, 1 = yes)
+1
+You aboard the Lunar Lander about to leave the spacecraft.
+Ready for detachment
+-- COUNTDOWN --
+10
+9
+8
+7
+6
+5
+4
+3
+2
+1
+0
+You have left the spacecraft.
+Try to land with velocity less than 5 m/sec.
+        Meter readings
+        --------------
+Fuel (gal):
+500
+Velocity (m/sec):
+70
+Height (m):
+1000
+How much fuel will you use?
+4
+        Meter readings
+        --------------
+Fuel (gal):
+496
+Velocity (m/sec):
+71
+Height (m):
+930
+How much fuel will you use?
+4
+        Meter readings
+        --------------
+Fuel (gal):
+492
+Velocity (m/sec):
+72
+Height (m):
+859
+How much fuel will you use?
+4
+        Meter readings
+        --------------
+Fuel (gal):
+488
+Velocity (m/sec):
+73
+Height (m):
+787
+How much fuel will you use?
+4
+        Meter readings
+        --------------
+Fuel (gal):
+484
+Velocity (m/sec):
+74
+Height (m):
+714
+How much fuel will you use?
+4
+        Meter readings
+        --------------
+Fuel (gal):
+480
+Velocity (m/sec):
+75
+Height (m):
+640
+How much fuel will you use?
+4
+        Meter readings
+        --------------
+Fuel (gal):
+476
+Velocity (m/sec):
+76
+Height (m):
+565
+How much fuel will you use?
+4
+        Meter readings
+        --------------
+Fuel (gal):
+472
+Velocity (m/sec):
+77
+Height (m):
+489
+How much fuel will you use?
+4
+        Meter readings
+        --------------
+Fuel (gal):
+468
+Velocity (m/sec):
+78
+Height (m):
+412
+How much fuel will you use?
+4
+        Meter readings
+        --------------
+Fuel (gal):
+464
+Velocity (m/sec):
+79
+Height (m):
+334
+How much fuel will you use?
+4
+        Meter readings
+        --------------
+Fuel (gal):
+460
+Velocity (m/sec):
+80
+Height (m):
+255
+How much fuel will you use?
+4
+        Meter readings
+        --------------
+Fuel (gal):
+456
+Velocity (m/sec):
+81
+Height (m):
+175
+How much fuel will you use?
+4
+        Meter readings
+        --------------
+Fuel (gal):
+452
+Velocity (m/sec):
+82
+Height (m):
+94
+How much fuel will you use?
+4
+        Meter readings
+        --------------
+Fuel (gal):
+448
+Velocity (m/sec):
+83
+Height (m):
+12
+How much fuel will you use?
+415
+        Meter readings
+        --------------
+Fuel (gal):
+33
+Landing velocity (m/sec):
+2
+Height (m):
+0
+Congratulations!  This was a very good landing.
+Do you want to play again? (0 = no, 1 = yes)
+1
+You aboard the Lunar Lander about to leave the spacecraft.
+Ready for detachment
+-- COUNTDOWN --
+10
+9
+8
+7
+6
+5
+4
+3
+2
+1
+0
+You have left the spacecraft.
+Try to land with velocity less than 5 m/sec.
+        Meter readings
+        --------------
+Fuel (gal):
+500
+Velocity (m/sec):
+70
+Height (m):
+1000
+How much fuel will you use?
+8
+        Meter readings
+        --------------
+Fuel (gal):
+492
+Velocity (m/sec):
+70
+Height (m):
+930
+How much fuel will you use?
+8
+        Meter readings
+        --------------
+Fuel (gal):
+484
+Velocity (m/sec):
+70
+Height (m):
+860
+How much fuel will you use?
+8
+        Meter readings
+        --------------
+Fuel (gal):
+476
+Velocity (m/sec):
+70
+Height (m):
+790
+How much fuel will you use?
+8
+        Meter readings
+        --------------
+Fuel (gal):
+468
+Velocity (m/sec):
+70
+Height (m):
+720
+How much fuel will you use?
+8
+        Meter readings
+        --------------
+Fuel (gal):
+460
+Velocity (m/sec):
+70
+Height (m):
+650
+How much fuel will you use?
+8
+        Meter readings
+        --------------
+Fuel (gal):
+452
+Velocity (m/sec):
+70
+Height (m):
+580
+How much fuel will you use?
+8
+        Meter readings
+        --------------
+Fuel (gal):
+444
+Velocity (m/sec):
+70
+Height (m):
+510
+How much fuel will you use?
+8
+        Meter readings
+        --------------
+Fuel (gal):
+436
+Velocity (m/sec):
+70
+Height (m):
+440
+How much fuel will you use?
+8
+        Meter readings
+        --------------
+Fuel (gal):
+428
+Velocity (m/sec):
+70
+Height (m):
+370
+How much fuel will you use?
+8
+        Meter readings
+        --------------
+Fuel (gal):
+420
+Velocity (m/sec):
+70
+Height (m):
+300
+How much fuel will you use?
+8
+        Meter readings
+        --------------
+Fuel (gal):
+412
+Velocity (m/sec):
+70
+Height (m):
+230
+How much fuel will you use?
+8
+        Meter readings
+        --------------
+Fuel (gal):
+404
+Velocity (m/sec):
+70
+Height (m):
+160
+How much fuel will you use?
+8
+        Meter readings
+        --------------
+Fuel (gal):
+396
+Velocity (m/sec):
+70
+Height (m):
+90
+How much fuel will you use?
+8
+        Meter readings
+        --------------
+Fuel (gal):
+388
+Velocity (m/sec):
+70
+Height (m):
+20
+How much fuel will you use?
+350
+        Meter readings
+        --------------
+Fuel (gal):
+38
+Landing velocity (m/sec):
+2
+Height (m):
+0
+Congratulations!  This was a very good landing.
+Do you want to play again? (0 = no, 1 = yes)
+1
+You aboard the Lunar Lander about to leave the spacecraft.
+Ready for detachment
+-- COUNTDOWN --
+10
+9
+8
+7
+6
+5
+4
+3
+2
+1
+0
+You have left the spacecraft.
+Try to land with velocity less than 5 m/sec.
+        Meter readings
+        --------------
+Fuel (gal):
+500
+Velocity (m/sec):
+70
+Height (m):
+1000
+How much fuel will you use?
+16
+        Meter readings
+        --------------
+Fuel (gal):
+484
+Velocity (m/sec):
+68
+Height (m):
+930
+How much fuel will you use?
+16
+        Meter readings
+        --------------
+Fuel (gal):
+468
+Velocity (m/sec):
+66
+Height (m):
+862
+How much fuel will you use?
+16
+        Meter readings
+        --------------
+Fuel (gal):
+452
+Velocity (m/sec):
+64
+Height (m):
+796
+How much fuel will you use?
+16
+        Meter readings
+        --------------
+Fuel (gal):
+436
+Velocity (m/sec):
+62
+Height (m):
+732
+How much fuel will you use?
+16
+        Meter readings
+        --------------
+Fuel (gal):
+420
+Velocity (m/sec):
+60
+Height (m):
+670
+How much fuel will you use?
+16
+        Meter readings
+        --------------
+Fuel (gal):
+404
+Velocity (m/sec):
+58
+Height (m):
+610
+How much fuel will you use?
+16
+        Meter readings
+        --------------
+Fuel (gal):
+388
+Velocity (m/sec):
+56
+Height (m):
+552
+How much fuel will you use?
+16
+        Meter readings
+        --------------
+Fuel (gal):
+372
+Velocity (m/sec):
+54
+Height (m):
+496
+How much fuel will you use?
+16
+        Meter readings
+        --------------
+Fuel (gal):
+356
+Velocity (m/sec):
+52
+Height (m):
+442
+How much fuel will you use?
+16
+        Meter readings
+        --------------
+Fuel (gal):
+340
+Velocity (m/sec):
+50
+Height (m):
+390
+How much fuel will you use?
+16
+        Meter readings
+        --------------
+Fuel (gal):
+324
+Velocity (m/sec):
+48
+Height (m):
+340
+How much fuel will you use?
+16
+        Meter readings
+        --------------
+Fuel (gal):
+308
+Velocity (m/sec):
+46
+Height (m):
+292
+How much fuel will you use?
+16
+        Meter readings
+        --------------
+Fuel (gal):
+292
+Velocity (m/sec):
+44
+Height (m):
+246
+How much fuel will you use?
+16
+        Meter readings
+        --------------
+Fuel (gal):
+276
+Velocity (m/sec):
+42
+Height (m):
+202
+How much fuel will you use?
+16
+        Meter readings
+        --------------
+Fuel (gal):
+260
+Velocity (m/sec):
+40
+Height (m):
+160
+How much fuel will you use?
+16
+        Meter readings
+        --------------
+Fuel (gal):
+244
+Velocity (m/sec):
+38
+Height (m):
+120
+How much fuel will you use?
+16
+        Meter readings
+        --------------
+Fuel (gal):
+228
+Velocity (m/sec):
+36
+Height (m):
+82
+How much fuel will you use?
+16
+        Meter readings
+        --------------
+Fuel (gal):
+212
+Velocity (m/sec):
+34
+Height (m):
+46
+How much fuel will you use?
+16
+        Meter readings
+        --------------
+Fuel (gal):
+196
+Velocity (m/sec):
+32
+Height (m):
+12
+How much fuel will you use?
+160
+        Meter readings
+        --------------
+Fuel (gal):
+36
+Landing velocity (m/sec):
+2
+Height (m):
+0
+Congratulations!  This was a very good landing.
+Do you want to play again? (0 = no, 1 = yes)
+0
+Have a nice day.
