@@ -8,7 +8,7 @@ The original minilight-cpp repo is here: https://github.com/hxa7241/minilight-cp
 
 The build process is now using apenwarr redo: https://github.com/apenwarr/redo
 
-The unit tests are now using catch: https://github.com/apenwarr/redo
+The unit tests are now using catch: https://github.com/philsquared/Catch
 
 To build minilight, do this:
 
