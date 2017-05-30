@@ -7,7 +7,7 @@ WARN="-Wall -Wextra -Wabi -Wold-style-cast -Wsign-promo -Woverloaded-virtual -Wc
 ARCH="-mfpmath=sse -msse"
 COMPILE_OPTIONS="-c $LANG $OPTI $ARCH $WARN"
 redo-ifchange $2.cpp
-$COMPILER $COMPILE_OPTIONS -MD -MF $2.d -o $3 $2.cpp 
+$COMPILER $COMPILE_OPTIONS -MMD -MF $2.d -o $3 $2.cpp 
 read DEPS <$2.d
 redo-ifchange ${DEPS#*:}
 

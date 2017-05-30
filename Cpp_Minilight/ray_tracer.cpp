@@ -13,6 +13,8 @@
 #include "surface_point.h"
 #include "ray_tracer.h"
 
+#include <iostream> // TODO: remove this
+
 using namespace hxa7241_minilight;
 
 RayTracer::RayTracer
@@ -36,6 +38,31 @@ Vector3f RayTracer::getRadiance
    Vector3f        hitPosition;
    pScene_m->getIntersection( rayOrigin, rayDirection, lastHit,
       pHitObject, hitPosition );
+   static int counter = 0;
+   if (counter < 100) {
+     if (lastHit == 0 && pHitObject != 0) {
+       counter++;
+       std::cout << "    WHEN( \"getIntersection hits a triangle\" ) {\n"
+		 << "      Vector3f rayOrigin(" << rayOrigin[0] << ", " << rayOrigin[1] << ", " << rayOrigin[2] << ");\n"
+		 << "      Vector3f rayDirection(" << rayDirection[0] << ", " << rayDirection[1] << ", " << rayDirection[2] << ");\n"
+		 << "      Triangle* hitObject = 0;\n"
+		 << "      Vector3f hitPosition;\n"
+		 << "      to_test.getIntersection(rayOrigin, rayDirection, 0, &hitObject, &hitPosition);\n"
+		 << "      THEN( \"hitObject is not zero\" ) {\n"
+		 << "	REQUIRE( hitObject != 0 );\n"
+		 << "      }\n"
+		 << "      AND_THEN( \"the first coordinate is approximately equal\") {\n"
+		 << "	REQUIRE(hitPosition[0] == Approx(" << hitPosition[0] << "));\n"
+		 << "      }\n"
+		 << "      AND_THEN( \"the second coordinate is approximately equal\" ) {\n"
+		 << "	REQUIRE(hitPosition[1] == Approx(" << hitPosition[1] << "));\n"
+		 << "      }\n"
+		 << "      AND_THEN( \"the third coordinate is approximately equal\" ) {\n"
+		 << "	REQUIRE(hitPosition[2] == Approx(" << hitPosition[2] << "));\n"
+		 << "      }\n"
+		 << "    }\n";
+     }
+   }
 
    Vector3f radiance;
    if( 0 != pHitObject )

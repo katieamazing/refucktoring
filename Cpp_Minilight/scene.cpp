@@ -10,7 +10,7 @@
 
 #include <math.h>
 #include <istream>
-#include <iostream> // TODO: delete this
+// #include <iostream> // TODO: delete this
 
 #include "random.h"
 #include "spatial_index.h"
@@ -76,6 +76,7 @@ void Scene::getIntersection
 {
    pIndex_m->getIntersection( rayOrigin, rayDirection, lastHit,
       pHitObject_o, hitPosition_o );
+   /*
    if (lastHit == 0) {
      std::cout << "rayOrigin: " << rayOrigin[0] << " " << rayOrigin[1] << " " << rayOrigin[2] << "\n";
      std::cout << "rayDirection: " << rayDirection[0] << " " << rayDirection[1] << " " << rayDirection[2] << "\n";
@@ -91,6 +92,7 @@ void Scene::getIntersection
      }
      std::cout << "hitPosition_o: " << hitPosition_o[0] << " " << hitPosition_o[1] << " " << hitPosition_o[2] << "\n";
    }
+   */
 }
 
 

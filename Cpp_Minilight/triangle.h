@@ -44,17 +44,13 @@ class Triangle
 			    const Vector3f& rayDirection,
 			    real64&         hitDistance_o ) const;
   Vector3f getSamplePoint( const Random&    random ) const;
-  
   Vector3f getNormal() const;
   Vector3f getTangent() const;
   real64   getArea() const;
-  
   Vector3f getReflectivity() const;
   Vector3f getEmitivity() const;
-
-  /// constants ------------------------------------------------------------------
+  // constants
   static  real64 TOLERANCE();
-
  private:
    // geometry
    Vector3f vertexs_m[3];

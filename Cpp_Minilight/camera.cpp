@@ -14,7 +14,6 @@
 #include "random.h"
 #include "ray_tracer.h"
 #include "image.h"
-
 #include "camera.h"
 
 using namespace hxa7241_minilight;
