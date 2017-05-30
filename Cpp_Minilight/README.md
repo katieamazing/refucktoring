@@ -21,3 +21,11 @@ To build and run the unit tests, do this:
 ```bash
 ./do test
 ```
+
+To create a picture, build minilight and then do this:
+```
+./minilight scenes/cornellbox-m.ml.txt
+```
+The output is a .ppm file, which can be opened with, e.g. GIMP.
+
+Dependencies: bash, g++

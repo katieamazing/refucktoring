@@ -12,27 +12,15 @@
 #include <istream>
 
 #include "random.h"
-
 #include "triangle.h"
 
-
 using namespace hxa7241_minilight;
-
-
-
-
-/// constants ------------------------------------------------------------------
 
 namespace
 {
    // reasonable for single precision FP
    const real64 EPSILON = 1.0 / 1048576.0;
 }
-
-
-
-
-/// standard object services ---------------------------------------------------
 
 Triangle::Triangle
 (
@@ -52,11 +40,6 @@ Triangle::Triangle
       emitivity_m = emitivity_m.getClamped( Vector3f::ZERO(), Vector3f::MAX() );
    }
 }
-
-
-
-
-/// queries --------------------------------------------------------------------
 
 void Triangle::getBound
 (
@@ -157,18 +140,15 @@ Vector3f Triangle::getSamplePoint
       ((vertexs_m[2] - vertexs_m[0]) * b) + vertexs_m[0] );
 }
 
-
 Vector3f Triangle::getNormal() const
 {
    return getTangent().cross( vertexs_m[2] - vertexs_m[1] ).unitize();
 }
 
-
 Vector3f Triangle::getTangent() const
 {
    return (vertexs_m[1] - vertexs_m[0]).unitize();
 }
-
 
 real64 Triangle::getArea() const
 {
@@ -178,22 +158,15 @@ real64 Triangle::getArea() const
    return ::sqrt( pa2.dot(pa2) ) * 0.5;
 }
 
-
 Vector3f Triangle::getReflectivity() const
 {
    return reflectivity_m;
 }
 
-
 Vector3f Triangle::getEmitivity() const
 {
    return emitivity_m;
 }
-
-
-
-
-/// constants ------------------------------------------------------------------
 
 real64 Triangle::TOLERANCE()
 {

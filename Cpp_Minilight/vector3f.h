@@ -21,8 +21,6 @@ namespace hxa7241_graphics
  *
  * ...mostly the usual sort of stuff.<br/><br/>
  *
- * (Unused methods are commented out. They do work fine though.)<br/><br/>
- *
  * Constant.
  */
 class Vector3f {

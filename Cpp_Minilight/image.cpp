@@ -10,16 +10,9 @@
 
 #include <math.h>
 #include <iostream>
-
 #include "image.h"
 
-
 using namespace hxa7241_minilight;
-
-
-
-
-/// constants ------------------------------------------------------------------
 
 namespace
 {
@@ -35,11 +28,6 @@ namespace
    // ITU-R BT.709 standard gamma
    const real64 GAMMA_ENCODE = 0.45;
 }
-
-
-
-
-/// standard object services ---------------------------------------------------
 
 Image::Image
 (
@@ -58,11 +46,6 @@ Image::Image
    pixels_m.resize( static_cast<int32u>(width_m * height_m) );
 }
 
-
-
-
-/// commands -------------------------------------------------------------------
-
 void Image::addToPixel
 (
    const int32     x,
@@ -78,11 +61,6 @@ void Image::addToPixel
    }
 }
 
-
-
-
-/// queries --------------------------------------------------------------------
-
 int32 Image::getWidth() const
 {
    return width_m;
@@ -93,7 +71,6 @@ int32 Image::getHeight() const
 {
    return height_m;
 }
-
 
 void Image::getFormatted
 (
@@ -139,62 +116,10 @@ void Image::getFormatted
    }
 }
 
-
-/**
- * For HDRI output.
- */
-/*void Image::getFormatted
-(
-   std::ostream& out,
-   const int32   iteration
-) const
-{
-   // write Radiance RGBE format
-
-   // make pixel value accumulation divider
-   const real64 divider = 1.0 / static_cast<real64>(
-      iteration >= 1 ? iteration : 1);
-
-   // write header
-   {
-      // write ID
-      out << "#?RADIANCE" << '\n';
-
-      // write other header things
-      out << "FORMAT=32-bit_rgbe" << '\n';
-      out << "SOFTWARE=" << MINILIGHT_URI << '\n' << '\n';
-
-      // write width, height
-      out << "-Y " << height_m << " +X " << width_m << '\n';
-   }
-
-   // write pixels
-   for( int32u i = 0;  i < pixels_m.size();  ++i )
-   {
-      const int32u rgbe = toRgbe( pixels_m[i] * divider );
-
-      // write rgbe bytes
-      for( int b = 4;  b-- > 0; )
-      {
-         out << static_cast<byteu>( (rgbe >> (b * 8)) & 0xFFu );
-      }
-   }
-}*/
-
-
-
-
-/// constants ------------------------------------------------------------------
-
 int32 Image::DIMENSION_MAX()
 {
    return 4000;
 }
-
-
-
-
-/// implementation -------------------------------------------------------------
 
 real64 Image::calculateToneMapping
 (
@@ -227,43 +152,3 @@ real64 Image::calculateToneMapping
 
    return ::pow( a / b, 2.5 ) / DISPLAY_LUMINANCE_MAX;
 }
-
-
-/**
- * For HDRI output.
- */
-/*int32u Image::toRgbe
-(
-   const Vector3f& rgbIn
-)
-{
-   int32u rgbe = 0;
-
-   const Vector3f rgb( rgbIn.getClamped( Vector3f::ZERO(), Vector3f::MAX() ) );
-   const real64 rgbLargest = (rgb[0] >= rgb[1]) ? (rgb[0] >= rgb[2] ? rgb[0] :
-      rgb[2]) : (rgb[1] >= rgb[2] ? rgb[1] : rgb[2]);
-
-   if( rgbLargest >= 1e-9 )
-   {
-      int32  exponentLargest = 0;
-      real64 mantissaLargest = ::frexp( rgbLargest, &exponentLargest );
-
-      // has been needed in the past, sadly...
-      //if( 1.0 == mantissaLargest )
-      //{
-      //   mantissaLargest = 0.5;
-      //   exponentLargest++;
-      //}
-
-      const real64 amount = mantissaLargest * 256.0 / rgbLargest;
-
-      for( int i = 3;  i-- > 0; )
-      {
-         rgbe |= static_cast<int32u>(::floor( rgb[i] * amount )) <<
-            ((3 - i) * 8);
-      }
-      rgbe |= static_cast<int32u>(exponentLargest + 128);
-   }
-
-   return rgbe;
-}*/

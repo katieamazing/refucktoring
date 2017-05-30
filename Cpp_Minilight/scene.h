@@ -48,17 +48,12 @@ class Scene
 			const void*      lastHit,
 			const Triangle*& pHitObject_o,
 			Vector3f&        hitPosition_o ) const;
-
   void getEmitter( const Random&    random,
 		   Vector3f&        position_o,
 		   const Triangle*& id_o ) const;
-
   int32 getEmittersCount() const;
   Vector3f getDefaultEmission( const Vector3f& backDirection ) const;
-
-  // constants ------------------------------------------------------------------
   static int32 TRIANGLES_MAX();
-
  private:
   std::vector<Triangle>        triangles_m;
   std::vector<const Triangle*> emitters_m;

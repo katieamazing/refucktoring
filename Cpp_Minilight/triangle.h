@@ -53,8 +53,7 @@ class Triangle
   Vector3f getEmitivity() const;
 
   /// constants ------------------------------------------------------------------
-   static  real64 TOLERANCE();
-
+  static  real64 TOLERANCE();
 
  private:
    // geometry

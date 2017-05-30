@@ -13,13 +13,7 @@
 
 #include "spatial_index.h"
 
-
 using namespace hxa7241_minilight;
-
-
-
-
-/// constants ------------------------------------------------------------------
 
 namespace
 {
@@ -28,11 +22,6 @@ namespace
    const int32  MAX_LEVELS = 44;
    const int32u MAX_ITEMS  =  8;
 }
-
-
-
-
-/// standard object services ---------------------------------------------------
 
 SpatialIndex::SpatialIndex
 (
@@ -76,7 +65,6 @@ SpatialIndex::SpatialIndex
    SpatialIndex::construct( itemPs, 0 );
 }
 
-
 SpatialIndex::SpatialIndex
 (
    const real64 bound[6]
@@ -94,16 +82,6 @@ SpatialIndex::~SpatialIndex()
       delete static_cast<const SpatialIndex*>( vector_m[i] );
    }
 }
-
-
-
-
-/// commands -------------------------------------------------------------------
-
-
-
-
-/// queries --------------------------------------------------------------------
 
 void SpatialIndex::getIntersection
 (
@@ -200,11 +178,6 @@ void SpatialIndex::getIntersection
       }
    }
 }
-
-
-
-
-/// implementation -------------------------------------------------------------
 
 const SpatialIndex* SpatialIndex::construct
 (

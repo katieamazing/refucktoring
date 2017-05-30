@@ -10,19 +10,13 @@
 
 #include <math.h>
 #include <istream>
+#include <iostream> // TODO: delete this
 
 #include "random.h"
 #include "spatial_index.h"
-
 #include "scene.h"
 
-
 using namespace hxa7241_minilight;
-
-
-
-
-/// standard object services ---------------------------------------------------
 
 Scene::Scene
 (
@@ -66,16 +60,10 @@ Scene::Scene
    pIndex_m = new SpatialIndex( eyePosition, triangles_m );
 }
 
-
 Scene::~Scene()
 {
    delete pIndex_m;
 }
-
-
-
-
-/// queries --------------------------------------------------------------------
 
 void Scene::getIntersection
 (
@@ -88,6 +76,21 @@ void Scene::getIntersection
 {
    pIndex_m->getIntersection( rayOrigin, rayDirection, lastHit,
       pHitObject_o, hitPosition_o );
+   if (lastHit == 0) {
+     std::cout << "rayOrigin: " << rayOrigin[0] << " " << rayOrigin[1] << " " << rayOrigin[2] << "\n";
+     std::cout << "rayDirection: " << rayDirection[0] << " " << rayDirection[1] << " " << rayDirection[2] << "\n";
+     if (lastHit == 0) {
+       std::cout << "lastHit: 0\n";
+     } else {
+       std::cout << "lastHit: hex\n";
+     }
+     if (pHitObject_o == 0) {
+       std::cout << "pHitObject_o: 0\n";
+     } else {
+       std::cout << "pHitObject_o: hex\n";
+     }
+     std::cout << "hitPosition_o: " << hitPosition_o[0] << " " << hitPosition_o[1] << " " << hitPosition_o[2] << "\n";
+   }
 }
 
 

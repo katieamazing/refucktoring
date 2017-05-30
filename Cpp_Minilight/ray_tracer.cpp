@@ -11,16 +11,9 @@
 #include "vector3f.h"
 #include "scene.h"
 #include "surface_point.h"
-
 #include "ray_tracer.h"
 
-
 using namespace hxa7241_minilight;
-
-
-
-
-/// standard object services ---------------------------------------------------
 
 RayTracer::RayTracer
 (
@@ -29,11 +22,6 @@ RayTracer::RayTracer
  : pScene_m( &scene )
 {
 }
-
-
-
-
-/// queries --------------------------------------------------------------------
 
 Vector3f RayTracer::getRadiance
 (
