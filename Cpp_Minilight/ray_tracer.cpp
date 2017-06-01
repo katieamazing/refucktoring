@@ -13,8 +13,6 @@
 #include "surface_point.h"
 #include "ray_tracer.h"
 
-#include <iostream> // TODO: remove this
-
 using namespace hxa7241_minilight;
 
 RayTracer::RayTracer
@@ -77,21 +75,7 @@ Vector3f RayTracer::getRadiance
       // no hit: default/background scene emission
       radiance = pScene_m->getDefaultEmission( -rayDirection );
    }
-   static int counter = 0;
-   if (counter < 100) {
-     if (lastHit == 0 && pHitObject != 0) {
-       counter++;
-       //std::cout << "    {\n"
-       //		 << "      Vector3f rayOrigin(" << rayOrigin[0] << ", " << rayOrigin[1] << ", " << rayOrigin[2] << ");\n"
-       //		 << "      Vector3f rayDirection(" << rayDirection[1] << ", " << rayDirection[1] << ", " << rayDirection[2] << ");\n"
-       //		 << "      Random rng;\n"
-       //		 << "      Vector3f radiance = to_test.getRadiance(rayOrigin, rayDirection, rng);\n"
-       std::cout << "      REQUIRE(radiance[0] == Approx(" << radiance[0] << "));\n"
-		 << "      REQUIRE(radiance[1] == Approx(" << radiance[1] << "));\n"
-		 << "      REQUIRE(radiance[2] == Approx(" << radiance[2] << "));\n";
-       // << "    }\n";
-     }
-   }
+
    return radiance;
 }
 
