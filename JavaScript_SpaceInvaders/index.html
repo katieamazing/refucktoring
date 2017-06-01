@@ -1,0 +1,20 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Space Invaders</title>
+    <script src="tests_jasmine/src/space-invaders.js"></script>
+  </head>
+  <body>
+    <h1>Space Invaders</h1>
+
+    <audio id="shoot-sound" src="shoot.mp3"></audio>
+
+    <canvas id="screen" width="310" height="310"></canvas>
+
+    <script>
+    window.addEventListener('load', function() {
+      new PubGame(document, window);
+    });
+    </script>
+  </body>
+</html>
