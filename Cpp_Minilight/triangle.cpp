@@ -114,7 +114,6 @@ bool Triangle::getIntersection
          }
       }
    }
-
    return isHit;
 }
 

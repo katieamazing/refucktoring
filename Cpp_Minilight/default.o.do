@@ -1,6 +1,6 @@
 COMPILER=g++
 LINKER=g++
-OPTI="-O3 -ffast-math"
+# OPTI="-O3 -ffast-math"
 LINK_OPTIONS=
 LANG="-x c++ -ansi -std=c++98 -pedantic -fno-enforce-eh-specs -fno-rtti"
 WARN="-Wall -Wextra -Wabi -Wold-style-cast -Wsign-promo -Woverloaded-virtual -Wcast-align -Wwrite-strings -Wpointer-arith -Wcast-qual -Wconversion -Wredundant-decls -Wdisabled-optimization"
