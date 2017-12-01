@@ -1,7 +1,3 @@
--- SOURCE: http://rosettacode.org/wiki/Roman_numerals/Decode#Lua
--- SOURCE: http://rosettacode.org/wiki/Roman_numerals/Encode#Lua
--- Tested with the Busted framework for lua (luarocks install busted)
-
 function ToNumeral( roman )
    local Num = { ["M"] = 1000, ["D"] = 500, ["C"] = 100, ["L"] = 50, ["X"] = 10, ["V"] = 5, ["I"] = 1 }
    local numeral = 0

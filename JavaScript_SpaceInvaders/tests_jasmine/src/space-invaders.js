@@ -1,9 +1,3 @@
-// source: the inimitable Mary Rose Cook, formerly of RC!
-// from this repo: https://github.com/maryrosecook/strange-loop/tree/master/space-invaders
-// which was the source code for talks she gave around 2014
-// slightly modified (butchered) for easier testing
-
-
 var PubGame = (function() {
   var Game = function(document, window) {
     var screen = document.getElementById("screen").getContext('2d');

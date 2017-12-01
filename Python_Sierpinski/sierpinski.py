@@ -1,5 +1,3 @@
-## source: https://rosettacode.org/wiki/Sierpinski_triangle#Python
-
 def sierpinski(n):
     d = ["*"]
     for i in range(n):

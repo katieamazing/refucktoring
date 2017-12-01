@@ -1,8 +1,3 @@
-"""
-Reference: http://rosettacode.org/wiki/Ray-casting_algorithm#Python
-Running in Python 2.7, tested with pytest 2.9
-"""
-
 from collections import namedtuple
 from pprint import pprint as pp
 import sys
